@@ -14,7 +14,6 @@ storage/app/public/*
 /.idea/*
 !.idea/codeStyles/*
 /resources/ckeditor/node_modules/
-.env
 .env.backup
 .env.production
 .phpunit.result.cache
