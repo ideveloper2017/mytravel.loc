@@ -25,7 +25,7 @@
                     @php $cat =  $row->category_tour->translate() @endphp
                     <span class="text-gray-10 font-weight-normal font-size-14">{{$cat->name ?? ''}}</span>
                 @endif
-                <h2 class="h5 text-white mb-0 font-weight-bold">
+                <h2 class="h5 text-white mb-0 font-weight-bold" style="display: none">
                     <small class="mr-1 font-size-14">{{ __("From") }}</small>
                     <small class="mr-1 font-size-13 text-decoration-line-through">
                         {{ $row->display_sale_price }}

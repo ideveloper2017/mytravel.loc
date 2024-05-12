@@ -1,4 +1,4 @@
-<div class="item-list">
+    <div class="item-list">
     @if($row->discount_percent)
         <div class="sale_info">{{$row->discount_percent}}</div>
     @endif

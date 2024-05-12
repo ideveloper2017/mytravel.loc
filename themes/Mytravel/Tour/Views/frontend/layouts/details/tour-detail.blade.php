@@ -108,7 +108,7 @@
         @if($row->pickup)
             <li class="col-md-4 flex-horizontal-center list-group-item text-lh-sm mb-2 border-0">
                 <i class="flaticon-pin text-primary font-size-22 mr-2 d-block"></i>
-                <div class="ml-1 text-gray-1">{{ __("Pickup:") }} {{ __("$row->pickup") }}</div>
+                <div class="ml-1 text-gray-1">{{ __("$row->pickup") }}</div>
             </li>
         @endif
     </ul>

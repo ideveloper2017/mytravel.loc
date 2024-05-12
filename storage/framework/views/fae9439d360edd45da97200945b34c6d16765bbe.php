@@ -25,7 +25,7 @@
                     <?php $cat =  $row->category_tour->translate() ?>
                     <span class="text-gray-10 font-weight-normal font-size-14"><?php echo e($cat->name ?? ''); ?></span>
                 <?php endif; ?>
-                <h2 class="h5 text-white mb-0 font-weight-bold">
+                <h2 class="h5 text-white mb-0 font-weight-bold" style="display: none">
                     <small class="mr-1 font-size-14"><?php echo e(__("From")); ?></small>
                     <small class="mr-1 font-size-13 text-decoration-line-through">
                         <?php echo e($row->display_sale_price); ?>
